@@ -14,8 +14,9 @@ public class deleteCityTest {
     public void deleteCityTest() {
         CustomList list = new CustomList(null, cityList);
         City city = new City("Edmonton", "AB");
-
+        list.addCity(city);
         list.deleteCity(city);
+        assertEquals(0, cityList.size());
 
     }
 

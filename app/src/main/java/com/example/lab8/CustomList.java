@@ -65,5 +65,6 @@ public class CustomList extends ArrayAdapter<City> {
         else {
             throw new IllegalArgumentException();
         }
+
     }
 }
